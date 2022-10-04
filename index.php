@@ -1,22 +1,10 @@
 <?php
-require_once 'Task.php';
+require_once 'TaskServise.php';
+require_once 'Comment.php';
 
-$done = readline('Done date');
-$prio = readline('priority num');
+$comment = new Comment();
 
-$task = new Task('Asel');
+TaskServise::addComment('asel','walk', 'i like walk evry day');
 
-$task
-    ->setdescription('pay dress')
-    ->setdateCreated(date('Y-m-d'))
-//    ->setdateUpdate(date('Y-m-d'))
-    ->setdateDone($done)
-    ->setpriority((int) $prio)
-    ->setisDone(false);
-
-//$date = date('Y-m-d');
-
-var_dump($task);
-$task->markAsDone();
-var_dump($task);
+var_dump($comment);
 ?>
