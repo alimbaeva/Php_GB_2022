@@ -1,0 +1,16 @@
+object(Task)#1 (7) {
+  ["description":"Task":private]=>
+  string(9) "pay dress"
+  ["dateCreated":"Task":private]=>
+  string(10) "2022-10-04"
+  ["dateUpdate":"Task":private]=>
+  string(10) "2022-10-04"
+  ["dateDone":"Task":private]=>
+  string(0) ""
+  ["priority":"Task":private]=>
+  int(0)
+  ["isDone":"Task":private]=>
+  bool(false)
+  ["user":"Task":private]=>
+  string(4) "Asel"
+}
