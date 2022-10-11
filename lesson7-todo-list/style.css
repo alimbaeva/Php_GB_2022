@@ -1,0 +1,64 @@
+.heading {
+    width: 50%;
+    margin: 30px auto;
+    text-align: center;
+    color: antiquewhite;
+    background-color: azure;
+    border: 2px solid #6B8E23;
+    border-radius: 20px;
+}
+form {
+    width: 50%;
+    margin: 30px auto;
+    padding: 10px;
+    color: antiquewhite;
+    background-color: rgb(91, 206, 206);
+    border: 1px solid #9bdf13;
+    border-radius: 5px;
+}
+.task_input {
+    width: 73%;
+    height: 15px;
+    padding: 10px;
+    border: 2px solid #9bdf13;
+}
+.task_btn {
+    height: 39px;
+    background-color: #6B8E23;
+    color: rgb(91, 206, 206);
+    border-radius: 5px;
+    padding: 5px 20px;
+}
+
+table{
+    width: 50%;
+    margin: 30px auto;
+    border-collapse: collapse;
+}
+tr {
+    border-bottom: 1px solid rebeccapurple;
+}
+th {
+    font-size: 19px;
+    color: #9bdf13;
+}
+th, td {
+    border: none;
+    height: 30px;
+    padding: 2px;
+}
+tr:hover {
+    background: #5bc1be;
+}
+.task {
+    text-align: left;
+}
+.delete {
+    text-align: center;
+}
+.delete a {
+    color: white;
+    background-color: red;
+    border-radius: 3px;
+    text-decoration: none;
+}
