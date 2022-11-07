@@ -1,18 +1,20 @@
 <?php
 
-use GeekBrains\Blog\Post;
-use GeekBrains\User\Person;
-use GeekBrains\User\Name;
+use App\Blog\Post;
+use App\User\Person;
+use App\User\Name;
 
-spl_autoload_register(
-    function (string $class) {
-        $file = str_replace('\\', DIRECTORY_SEPARATOR, $class).'.php';
+require_once __DIR__ . '/vendor/autoload.php';
 
-        if(file_exists($file)) {
-            require_once $file;
-        }
-    }
-);
+// spl_autoload_register(
+//     function (string $class) {
+//         $file = str_replace('\\', DIRECTORY_SEPARATOR, $class).'.php';
+
+//         if(file_exists($file)) {
+//             require_once $file;
+//         }
+//     }
+// );
 
 echo new Post
 (

@@ -1,6 +1,6 @@
 <?php
 
-namespace GeekBrains\User;
+namespace App\User;
 
 use DateTimeImmutable;
 

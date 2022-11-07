@@ -1,8 +1,8 @@
 <?php
 
-namespace GeekBrains\Blog;
+namespace App\Blog;
 
-use GeekBrains\User\Person;
+use App\User\Person;
 
 
 class Post {
